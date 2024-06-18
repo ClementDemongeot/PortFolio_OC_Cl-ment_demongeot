@@ -10,18 +10,26 @@ import {
 function NavigationMenu() {
   return (
     <Navbar>
+      <p>Logo</p>
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
         <NavbarItem>
           <Link color="foreground" href="#">
-            Features
+            À Propos
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#">Customers</Link>
+          <Link color="foreground" href="#">
+            Spécifications
+          </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#">
-            Integrations
+            Projets
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            Contact
           </Link>
         </NavbarItem>
       </NavbarContent>
