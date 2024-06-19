@@ -4,7 +4,10 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 function Footer() {
   return (
-    <footer className="flex justify-center items-center flex-col w-full h-[200px] bg-orange-100 border-t border-gray-500 gap-5">
+    <footer
+      className="flex justify-center items-center flex-col w-full h-[200px] bg-orange-100 border-t border-gray-500 gap-5"
+      id="liens"
+    >
       <p className="text-center text-gray-600 text-sm">
         &copy; {new Date().getFullYear()} Clément Demongeot. Tous droits
         réservés.

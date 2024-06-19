@@ -80,7 +80,7 @@ function FormContact() {
           </div>
           <button
             type="submit"
-            className="w-full bg-zinc-400 hover:bg-zinc-500 text-gray-700 hover:text-white py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="w-full bg-zinc-400 hover:bg-blue-500 text-gray-700 hover:text-white py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Envoyer
           </button>

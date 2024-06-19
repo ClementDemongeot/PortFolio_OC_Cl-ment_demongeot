@@ -8,25 +8,50 @@ function NavigationMenu() {
           Clément Demongeot Front-End Developer
         </h1>
       </Link>
-      <NavbarContent className="sm:flex gap-4" justify="end">
+      <NavbarContent className="sm:flex gap-6" justify="end">
         <NavbarItem>
-          <Link color="foreground" href="#about">
+          <Link
+            className="hover:text-blue-500 hover:scale-125 transition duration-200"
+            color="foreground"
+            href="#about"
+          >
             About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#specifications">
+          <Link
+            className="hover:text-blue-500 hover:scale-125 transition duration-200"
+            color="foreground"
+            href="#specifications"
+          >
             Spécifications
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#projets">
+          <Link
+            className="hover:text-blue-500 hover:scale-125 transition duration-200"
+            color="foreground"
+            href="#projets"
+          >
             Projets
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#contact">
+          <Link
+            className="hover:text-blue-500 hover:scale-125 transition duration-200"
+            color="foreground"
+            href="#contact"
+          >
             Contact
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link
+            className="hover:text-blue-500 hover:scale-125 transition duration-200"
+            color="foreground"
+            href="#liens"
+          >
+            Liens
           </Link>
         </NavbarItem>
       </NavbarContent>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "name": "OhMyFood",
+    "description": "`Jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris.`",
+    "image": "./../../assets/images/ohmyfood.png"
+  },
+  {
+    "id": 1,
+    "name": "Kasa",
+    "description": "`Une entreprise de location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.`",
+    "image": "./../../assets/images/KASA_LOGO.png"
+  },
+  {
+    "id": 2,
+    "name": "ArgentBank",
+    "description": "`Argent Bank est une nouvelle banque en ligne ambitieuse, déterminée qui souhaite percer et se diversifier dans le secteur bancaire.`",
+    "image": "./../../assets/images/argentBankLogo.png"
+  }
+]
