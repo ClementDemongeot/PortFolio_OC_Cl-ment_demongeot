@@ -20,7 +20,7 @@ function FormContact() {
   };
 
   return (
-    <div className="flex justify-center items-center border-t border-gray-500">
+    <div className="flex justify-center p-9 items-center border-t border-gray-500">
       <div
         className="w-[500px] p-6 bg-zinc-300 rounded shadow-md mt-8 mb-8"
         id="contact"
