@@ -1,5 +1,5 @@
 function Specification() {
-  return <div className="w-full h-[200px] bg-red-500">Specifications</div>;
+  return <div className="w-full h-[300px] bg-orange-100">Specifications</div>;
 }
 
 export default Specification;

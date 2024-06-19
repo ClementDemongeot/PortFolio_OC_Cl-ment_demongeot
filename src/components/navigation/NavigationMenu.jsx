@@ -1,20 +1,13 @@
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-  Link,
-  Button,
-} from "@nextui-org/react";
-
+import { Navbar, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
+import logoClem from "./../../assets/images/Design sans titre.png";
 function NavigationMenu() {
   return (
     <Navbar>
-      <p>Logo</p>
+      <img src={logoClem} alt="" />
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
         <NavbarItem>
           <Link color="foreground" href="#">
-            À Propos
+            About
           </Link>
         </NavbarItem>
         <NavbarItem>
