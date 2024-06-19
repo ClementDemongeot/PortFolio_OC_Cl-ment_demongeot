@@ -2,7 +2,10 @@ import ImgApropos from "./../../assets/images/DSC08931-1-2+FX.PNG";
 
 function Apropos() {
   return (
-    <div className="w-full h-[500px] relative flex flex-start items-center overflow-hidden">
+    <div
+      className="w-full h-[500px] relative flex flex-start items-center overflow-hidden"
+      id="about"
+    >
       <img
         className="w-full h-full object-cover "
         src={ImgApropos}
