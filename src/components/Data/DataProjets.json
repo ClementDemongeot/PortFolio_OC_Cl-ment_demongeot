@@ -3,18 +3,24 @@
     "id": 0,
     "name": "OhMyFood",
     "description": "`Jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris.`",
-    "image": "./../../assets/images/ohmyfood.png"
+    "logo": "./../../assets/images/ohmyfood.png",
+    "websiteLink": "https://clementdemongeot.github.io/Projet_Ohmyfood/",
+    "githubLink": "https://github.com/ClementDemongeot/Projet_Ohmyfood"
   },
   {
     "id": 1,
     "name": "Kasa",
     "description": "`Une entreprise de location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.`",
-    "image": "./../../assets/images/KASA_LOGO.png"
+    "logo": "./../../assets/images/KASA_LOGO.png",
+    "websiteLink": "https://clementdemongeot.github.io/Projet_Ohmyfood/",
+    "githubLink": "https://github.com/ClementDemongeot/Projet_KASA"
   },
   {
     "id": 2,
     "name": "ArgentBank",
     "description": "`Argent Bank est une nouvelle banque en ligne ambitieuse, déterminée qui souhaite percer et se diversifier dans le secteur bancaire.`",
-    "image": "./../../assets/images/argentBankLogo.png"
+    "logo": "./../../assets/images/argentBankLogo.png",
+    "websiteLink": "https://clementdemongeot.github.io/Projet_Ohmyfood/",
+    "githubLink": "https://github.com/ClementDemongeot/Projet_Argent_Bank"
   }
 ]

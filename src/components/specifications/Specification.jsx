@@ -9,7 +9,7 @@ function Specification() {
       className="flex flex-col justify-center items-center gap-9  w-full p-9 bg-orange-100"
       id="specifications"
     >
-      <h2 className="text-2xl font-bold ">Spécifications</h2>
+      <h2 className="text-4xl font-bold ">Spécifications</h2>
       <div className="flex justify-around items-center w-3/4">
         <div className="flex flex-col items-center cursor-pointer hover:text-blue-500 hover:scale-125 transition duration-200">
           <h2 className="text-lg font-bold">HTML</h2>
