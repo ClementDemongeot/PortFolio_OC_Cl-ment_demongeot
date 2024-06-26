@@ -11,11 +11,11 @@ function Projets() {
 
   return (
     <div
-      className="w-full h-[600px] flex flex-col items-center p-9 bg-orange-100 border-t border-gray-500 gap-12"
+      className="w-full h-full flex flex-col items-center p-9 bg-orange-100 border-t border-gray-500 gap-12"
       id="projets"
     >
-      <h2 className="text-4xl font-bold ">Projets</h2>
-      <div className="flex flex-wrap justify-between  gap-9 w-full h-full">
+      <h2 className=" text-neutral-700 text-4xl font-bold ">Projets</h2>
+      <div className="flex flex-wrap justify-center xl:justify-between  gap-9 w-full">
         <CardProjet
           id={ohMyFoodProject.id}
           name={ohMyFoodProject.name}

@@ -21,7 +21,6 @@ export default function Modale({
   githubLink,
 }) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-  console.log(description);
 
   return (
     <>

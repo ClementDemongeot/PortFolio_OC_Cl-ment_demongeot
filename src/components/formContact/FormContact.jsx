@@ -13,20 +13,24 @@ function FormContact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Ici vous pouvez ajouter la logique pour traiter les données du formulaire
+
     console.log(formData);
-    // Réinitialiser le formulaire après la soumission si nécessaire
+
     setFormData({ name: "", email: "", message: "" });
   };
 
   return (
-    <div className="flex flex-col justify-center p-9 items-center mt-9">
-      <h2 className="text-4xl font-bold ">Contact</h2>
+    <div className="flex flex-col justify-center p-4 sm:p-9 items-center mt-4 sm:mt-9">
+      <h2 className=" text-neutral-700 text-3xl sm:text-4xl font-bold ">
+        Contact
+      </h2>
       <div
-        className="w-[500px] p-6 bg-zinc-300 rounded shadow-md mt-8 mb-8"
+        className="w-full sm:w-[500px] p-4 sm:p-6 bg-zinc-300 rounded shadow-md mt-4 sm:mt-8 mb-4 sm:mb-8"
         id="contact"
       >
-        <h2 className="text-2xl font-bold mb-8">Contactez-moi</h2>
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-8">
+          Contactez-moi
+        </h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label

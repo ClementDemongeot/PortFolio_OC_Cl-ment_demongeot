@@ -1,75 +1,82 @@
-import { Navbar, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
-import { MenuIcon } from "@heroicons/react/outline";
-import React, { useState } from "react";
-function NavigationMenu() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+import React from "react";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  NavbarMenuToggle,
+  NavbarMenu,
+  NavbarMenuItem,
+  Link,
+} from "@nextui-org/react";
+
+export default function App() {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+  const menuItems = [
+    { name: "About", href: "#about" },
+    { name: "Specifications", href: "#specifications" },
+    { name: "Projets", href: "#projets" },
+    { name: "Contact", href: "#contact" },
+    { name: "Liens", href: "#liens" },
+  ];
+
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
+    console.log("Menu closed");
+  };
+
   return (
-    <Navbar className="flex  items-center ">
-      <Link color="foreground" href="/">
-        <h1 className="text-lg sm:text-xl md:text-2xl font-bold">
-          Clément Demongeot Front-End Developer
-        </h1>
-      </Link>
-      <button
-        className="block sm:hidden text-gray-700 focus:outline-none"
-        onClick={() => setIsMenuOpen(!isMenuOpen)}
-      >
-        <MenuIcon className="h-6 w-6" />
-      </button>
-      <NavbarContent
-        className={`${
-          isMenuOpen ? "block" : "hidden"
-        } flex-col sm:flex sm:flex-row gap-6 sm:gap-8 transition-transform duration-300`}
-        justify="end"
-      >
-        <NavbarItem>
-          <Link
-            className="hover:text-blue-500 hover:scale-125 transition duration-200"
-            color="foreground"
-            href="#about"
-          >
-            About
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="hover:text-blue-500 hover:scale-125 transition duration-200"
-            color="foreground"
-            href="#specifications"
-          >
-            Spécifications
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="hover:text-blue-500 hover:scale-125 transition duration-200"
-            color="foreground"
-            href="#projets"
-          >
-            Projets
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="hover:text-blue-500 hover:scale-125 transition duration-200"
-            color="foreground"
-            href="#contact"
-          >
-            Contact
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link
-            className="hover:text-blue-500 hover:scale-125 transition duration-200"
-            color="foreground"
-            href="#liens"
-          >
-            Liens
-          </Link>
-        </NavbarItem>
+    <Navbar
+      className="absolute bg-transparent top-3 left-0 p-2 sm:p-5 "
+      isMenuOpen={isMenuOpen}
+      onMenuOpenChange={setIsMenuOpen}
+      style={{ backdropFilter: "none" }}
+    >
+      <NavbarContent className="flex items-center">
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="sm:hidden"
+          onClick={() => setIsMenuOpen((prev) => !prev)}
+        />
+        <NavbarBrand className="gap-2 sm:gap-3">
+          <p className="font-bold sm:text-2xl text-inherit">
+            Clément Demongeot
+          </p>
+          <p className="hidden sm:block font-light text-sm sm:text-xl text-inherit">
+            <em>Front-End Developer</em>
+          </p>
+        </NavbarBrand>
       </NavbarContent>
+
+      <NavbarContent className="hidden sm:flex gap-3 sm:gap-2" justify="end">
+        {menuItems.map((item, index) => (
+          <NavbarItem key={index}>
+            <Link
+              className=" bg-text-base md:text-md"
+              color="foreground"
+              href={item.href}
+            >
+              {item.name}
+            </Link>
+          </NavbarItem>
+        ))}
+      </NavbarContent>
+
+      <NavbarMenu className="bg-neutral-40">
+        {menuItems.map((item, index) => (
+          <NavbarMenuItem key={`${item.name}-${index}`}>
+            <Link
+              className=" text-neutral-600 w-full pt-2 sm:pt-3"
+              href={item.href}
+              onClick={handleLinkClick}
+              size="md"
+            >
+              {item.name}
+            </Link>
+          </NavbarMenuItem>
+        ))}
+      </NavbarMenu>
     </Navbar>
   );
 }
-
-export default NavigationMenu;

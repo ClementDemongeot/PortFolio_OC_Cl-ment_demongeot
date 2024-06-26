@@ -18,7 +18,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
-          className="text-4xl hover:text-blue-700"
+          className=" text-neutral-700 text-4xl hover:text-blue-700"
         >
           <FaLinkedin />
         </a>
@@ -27,7 +27,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
-          className="text-4xl hover:text-purple-600"
+          className=" text-neutral-700 text-4xl hover:text-purple-600"
         >
           <FaGithub />
         </a>
@@ -36,7 +36,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
-          className="text-4xl hover:text-pink-600"
+          className="text-neutral-700 text-4xl hover:text-pink-600"
         >
           <CiInstagram />
         </a>
@@ -45,7 +45,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Facebook"
-          className="text-4xl hover:text-blue-600"
+          className="text-neutral-700 text-4xl hover:text-blue-600"
         >
           <FaFacebookSquare />
         </a>
