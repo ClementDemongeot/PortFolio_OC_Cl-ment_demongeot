@@ -1,0 +1,55 @@
+[
+  {
+    "id": 0,
+    "name": "OhMyFood",
+    "description": {
+      "part1": "Ce projet a consisté à développer l'interface mobile-first du site d'une start-up. Il a nécessité l'utilisation de Sass, l'implémentation d'animations CSS, et la gestion du projet avec Git et GitHub.",
+      "part2": "L'objectif principal était d'intégrer une maquette en adoptant une approche mobile-first. Les maquettes, disponibles pour mobile et desktop, provenaient d'un prototype sur Figma et incluaient les images et textes nécessaires.Cette approche a permis de mieux comprendre l'importance de concevoir des sites web adaptatifs et réactifs.",
+      "part3": "Il a également été essentiel d'apprendre à mettre en œuvre des animations CSS pour enrichir l'expérience utilisateur. Ces animations apportent une touche vivante à l'interface et rendent la navigation plus interactive et engageante.",
+      "part4": "L'utilisation de Sass, un préprocesseur CSS, a été cruciale pour étendre les fonctionnalités de base du CSS. Cela a permis d'écrire des styles plus organisés et maintenables.",
+      "part5": "Enfin, la version de ce projet a été gérée avec Git et GitHub, ce qui a permis de se familiariser avec des outils essentiels pour la gestion et la collaboration sur des projets de développement web.",
+      "part6": "La capacité à créer des interfaces web en adoptant une approche mobile-first est de plus en plus recherchée dans le domaine du développement web moderne.",
+      "part7": "L'intégration d'animations CSS améliore non seulement l'aspect visuel du site, mais aussi l'expérience utilisateur.",
+      "part8": "La maîtrise de Sass pour structurer et optimiser le CSS est une compétence précieuse, tout comme la capacité à utiliser Git et GitHub pour la gestion des versions et la collaboration sur des projets. Ces compétences combinées renforcent le profil en tant que développeur front-end compétent et polyvalent."
+    },
+    "image": "src/assets/images/CaptureOhMyFood.png",
+    "logo": "src/assets/images/ohmyfood.png",
+    "websiteLink": "https://clementdemongeot.github.io/Projet_Ohmyfood/",
+    "githubLink": "https://github.com/ClementDemongeot/Projet_Ohmyfood"
+  },
+  {
+    "id": 1,
+    "name": "Kasa",
+    "description": {
+      "part1": "Ce projet visait à développer le front-end d'une application en utilisant React et React Router pour offrir une expérience utilisateur moderne et réactive.",
+      "part2": "Le travail a principalement consisté à implémenter la logique de présentation des données et les composants React, une bibliothèque JavaScript largement utilisée pour la création d'interfaces utilisateur dynamiques.",
+      "part3": "L'utilisation de React Router a été essentielle pour configurer la navigation entre les différentes pages de l'application, permettant ainsi de maîtriser efficacement le routage dans un contexte d'application web moderne.",
+      "part4": "Le projet s'est concentré exclusivement sur le développement front-end, en se basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON.",
+      "part5": "Pour initier le projet, ViteJS a été utilisé, un outil facilitant la configuration initiale d'une application React, complété par Node.js pour exécuter du code JavaScript côté serveur.",
+      "part6": "La maîtrise de React et de React Router est indispensable dans le développement web moderne, notamment pour la création d'applications web dynamiques et réactives.",
+      "part7": "L'utilisation de Sass pour la gestion du CSS ainsi que l'implémentation d'animations CSS sont également des compétences clés permettant d'améliorer l'expérience utilisateur.Ces compétences sont cruciales pour développer des applications web interactives et visuellement attrayantes, très prisées dans l'industrie du développement web."
+    },
+    "image": "src/assets/images/CaptureKasa.png",
+    "logo": "src/assets/images/KASA_LOGO.png",
+    "websiteLink": "https://clementdemongeot.github.io/Projet_Ohmyfood/",
+    "githubLink": "https://github.com/ClementDemongeot/Projet_KASA"
+  },
+  {
+    "id": 2,
+    "name": "ArgentBank",
+    "description": {
+      "part1": "Ce projet a nécessité le développement front-end d'une application bancaire en utilisant React et Redux pour offrir une expérience utilisateur dynamique et réactive.",
+      "part2": "La principale mission était d'intégrer le front-end avec le back-end via des appels API. Cela incluait l'écriture d'appels à l'API REST pour établir une communication fluide entre le client et le serveur.",
+      "part3": "L'utilisation de React a permis de développer une interface utilisateur complète et réactive pour le tableau de bord des utilisateurs de l'application bancaire.",
+      "part4": "Redux a été employé pour gérer l'état global de l'application, assurant ainsi la cohérence des données à travers toutes les parties de l'application.",
+      "part5": "Pour définir les points d'accès de l'API et modéliser les interactions avec les données des transactions, l'utilisation de Swagger a été essentielle. Cet outil a facilité la description précise des routes et actions nécessaires pour l'API.",
+      "part6": "Node.js a été utilisé pour exécuter le code JavaScript côté serveur, fournissant une expérience pratique dans la gestion d'une application full-stack.",
+      "part7": "La maîtrise de React et Redux est cruciale pour tout développeur front-end moderne, surtout pour ceux travaillant sur des applications web complexes.",
+      "part8": "L'utilisation de Swagger pour documenter les API est également une compétence précieuse, garantissant la clarté et la maintenabilité de l'interface de programmation."
+    },
+    "image": "src/assets/images/CaptureArgentBank.png",
+    "logo": "src/assets/images/argentBankLogo.png",
+    "websiteLink": "https://clementdemongeot.github.io/Projet_Ohmyfood/",
+    "githubLink": "https://github.com/ClementDemongeot/Projet_Argent_Bank"
+  }
+]
