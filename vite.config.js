@@ -4,7 +4,7 @@ import { ghPages } from "vite-plugin-gh-pages";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), ghPages()],
   assetsInclude: ["**/*.PNG"],
   base: "/PortFolio_OC_Cl-ment_demongeot/",
 });
