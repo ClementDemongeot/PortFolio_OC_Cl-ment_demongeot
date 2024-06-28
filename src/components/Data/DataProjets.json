@@ -12,7 +12,7 @@
     "name": "Kasa",
     "description": "`Une entreprise de location d’appartements entre particuliers. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France.`",
     "logo": "./../../assets/images/KASA_LOGO.png",
-    "websiteLink": "http://localhost:5174/logements/b9123946",
+    "websiteLink": "https://clementdemongeot.github.io/Projet_KASA/",
     "githubLink": "https://github.com/ClementDemongeot/Projet_KASA"
   },
   {
