@@ -23,7 +23,6 @@ export default function App() {
 
   const handleLinkClick = () => {
     setIsMenuOpen(false);
-    console.log("Menu closed");
   };
 
   return (
