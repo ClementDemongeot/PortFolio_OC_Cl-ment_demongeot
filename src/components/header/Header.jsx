@@ -1,5 +1,5 @@
 import React from "react";
-import ImgClem from "./../../assets/images/DSC08931-1-2+FX.PNG";
+
 import NavigationMenu from "../navigation/NavigationMenu";
 
 function Header() {
@@ -8,7 +8,7 @@ function Header() {
       <div className="relative w-full h-[600px]">
         <img
           className="w-full h-full object-cover"
-          src={ImgClem}
+          src={"images/DSC08931-1-2+FX.PNG"}
           alt="Image Clem"
         />
         {/* Dégradé flou en bas de l'image */}

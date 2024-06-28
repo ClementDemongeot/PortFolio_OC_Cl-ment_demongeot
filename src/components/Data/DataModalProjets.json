@@ -12,8 +12,8 @@
       "part7": "L'intégration d'animations CSS améliore non seulement l'aspect visuel du site, mais aussi l'expérience utilisateur.",
       "part8": "La maîtrise de Sass pour structurer et optimiser le CSS est une compétence précieuse, tout comme la capacité à utiliser Git et GitHub pour la gestion des versions et la collaboration sur des projets. Ces compétences combinées renforcent le profil en tant que développeur front-end compétent et polyvalent."
     },
-    "image": "src/assets/images/CaptureOhMyFood.png",
-    "logo": "src/assets/images/ohmyfood.png",
+    "image": "images/CaptureOhMyFood.png",
+    "logo": "images/ohmyfood.png",
     "websiteLink": "https://clementdemongeot.github.io/Projet_Ohmyfood/",
     "githubLink": "https://github.com/ClementDemongeot/Projet_Ohmyfood"
   },
@@ -29,8 +29,8 @@
       "part6": "La maîtrise de React et de React Router est indispensable dans le développement web moderne, notamment pour la création d'applications web dynamiques et réactives.",
       "part7": "L'utilisation de Sass pour la gestion du CSS ainsi que l'implémentation d'animations CSS sont également des compétences clés permettant d'améliorer l'expérience utilisateur.Ces compétences sont cruciales pour développer des applications web interactives et visuellement attrayantes, très prisées dans l'industrie du développement web."
     },
-    "image": "src/assets/images/CaptureKasa.png",
-    "logo": "src/assets/images/KASA_LOGO.png",
+    "image": "images/CaptureKasa.png",
+    "logo": "images/KASA_LOGO.png",
     "websiteLink": "https://clementdemongeot.github.io/Projet_Ohmyfood/",
     "githubLink": "https://github.com/ClementDemongeot/Projet_KASA"
   },
@@ -47,8 +47,8 @@
       "part7": "La maîtrise de React et Redux est cruciale pour tout développeur front-end moderne, surtout pour ceux travaillant sur des applications web complexes.",
       "part8": "L'utilisation de Swagger pour documenter les API est également une compétence précieuse, garantissant la clarté et la maintenabilité de l'interface de programmation."
     },
-    "image": "src/assets/images/CaptureArgentBank.png",
-    "logo": "src/assets/images/argentBankLogo.png",
+    "image": "images/CaptureArgentBank.png",
+    "logo": "images/argentBankLogo.png",
     "websiteLink": "https://clementdemongeot.github.io/Projet_Ohmyfood/",
     "githubLink": "https://github.com/ClementDemongeot/Projet_Argent_Bank"
   }

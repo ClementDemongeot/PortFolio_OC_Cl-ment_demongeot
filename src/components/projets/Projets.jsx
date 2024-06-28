@@ -1,8 +1,5 @@
 import CardProjet from "../cardProjet/CardProjet";
 import DataProjets from "./../Data/DataProjets.json";
-import LogoOhMyFood from "./../../assets/images/ohmyfood.png";
-import LogoKasa from "././../../assets/images/KASA_LOGO.png";
-import LogoArgentBank from "./../../assets/images/argentBankLogo.png";
 
 function Projets() {
   const ohMyFoodProject = DataProjets.find((project) => project.id === 0);
@@ -20,7 +17,7 @@ function Projets() {
           id={ohMyFoodProject.id}
           name={ohMyFoodProject.name}
           description={ohMyFoodProject.description}
-          image={LogoOhMyFood}
+          image={"images/ohmyfood.png"}
           websiteLink={ohMyFoodProject.websiteLink}
           githubLink={ohMyFoodProject.githubLink}
         />
@@ -29,7 +26,7 @@ function Projets() {
           id={kasaProject.id}
           name={kasaProject.name}
           description={kasaProject.description}
-          image={LogoKasa}
+          image={"images/KASA_LOGO.png"}
           websiteLink={kasaProject.websiteLink}
           githubLink={kasaProject.githubLink}
         />
@@ -37,7 +34,7 @@ function Projets() {
           id={argentBankProject.id}
           name={argentBankProject.name}
           description={argentBankProject.description}
-          image={LogoArgentBank}
+          image={"images/argentBankLogo.png"}
           websiteLink={argentBankProject.websiteLink}
           githubLink={argentBankProject.githubLink}
         />
