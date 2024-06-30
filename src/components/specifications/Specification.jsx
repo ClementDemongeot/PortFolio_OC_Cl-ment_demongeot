@@ -15,19 +15,19 @@ function Specification() {
       <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-16 w-full sm:w-3/4">
         <div className="text-neutral-700 flex flex-col items-center cursor-pointer hover:text-blue-500 hover:scale-125 transition duration-200">
           <h2 className="text-lg font-bold">HTML</h2>
-          <FaHtml5 className="mt-2 text-4xl" />
+          <FaHtml5 className="mt-2 text-4xl hover:animate-bounce" />
         </div>
         <div className="text-neutral-700 flex flex-col items-center cursor-pointer hover:text-blue-500 hover:scale-125 transition duration-200">
           <h2 className="text-lg font-bold">JavaScript</h2>
-          <SiJavascript className="mt-2 text-4xl" />
+          <SiJavascript className="mt-2 text-4xl hover:animate-bounce" />
         </div>
         <div className="text-neutral-700 flex flex-col items-center cursor-pointer hover:text-blue-500 hover:scale-125 transition duration-200">
           <h2 className="text-lg font-bold">React</h2>
-          <FaReact className="mt-2 text-4xl" />
+          <FaReact className="mt-2 text-4xl hover:animate-spin" />
         </div>
         <div className="text-neutral-700 flex flex-col items-center cursor-pointer hover:text-blue-500 hover:scale-125 transition duration-200">
           <h2 className="text-lg font-bold">Tailwind CSS</h2>
-          <RiTailwindCssLine className="mt-2 text-4xl" />
+          <RiTailwindCssLine className="mt-2 text-4xl hover:animate-spin" />
         </div>
       </div>
     </div>
