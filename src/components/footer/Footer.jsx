@@ -23,7 +23,7 @@ function Footer() {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/"
+          href="https://github.com/ClementDemongeot"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
