@@ -14,7 +14,7 @@ function Footer() {
       </p>
       <div className="flex justify-center items-center gap-8">
         <a
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/cl%C3%A9ment-demongeot-265395269/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
