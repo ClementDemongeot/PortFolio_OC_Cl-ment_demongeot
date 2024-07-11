@@ -35,24 +35,24 @@ export default function App() {
       <NavbarContent className="flex items-center">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
+          className="md:hidden"
           onClick={() => setIsMenuOpen((prev) => !prev)}
         />
         <NavbarBrand className="gap-2 sm:gap-3">
           <p className="font-bold sm:text-2xl text-inherit">
             Clément Demongeot
           </p>
-          <p className="hidden sm:block font-light text-sm sm:text-xl text-inherit">
+          <p className="sm:block font-light text-sm sm:text-xl text-inherit">
             <em>Front-End Developer</em>
           </p>
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-3 sm:gap-2" justify="end">
+      <NavbarContent className="hidden md:flex gap-3 sm:gap-2" justify="end">
         {menuItems.map((item, index) => (
           <NavbarItem key={index}>
             <Link
-              className=" bg-text-base md:text-md"
+              className="bg-text-base md:text-md flex"
               color="foreground"
               href={item.href}
             >
